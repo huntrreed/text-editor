@@ -23,7 +23,7 @@ module.exports = () => {
         title: 'Text Editor',
       }),
       new InjectManifest({
-        swSrc: './src-sw.js', // source service worker file
+        swSrc: './src/src-sw.js', // source service worker file
         swDest: 'service-worker.js', // filename for the  output 
       }),
       new WebpackPwaManifest({
