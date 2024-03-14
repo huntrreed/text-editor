@@ -19,11 +19,11 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: '/index.html', //path to html file
+        template: './index.html', //path to html file
         title: 'Text Editor',
       }),
       new InjectManifest({
-        swSrc: './src/src-sw.js', // source service worker file
+        swSrc: './src-sw.js', // source service worker file
         swDest: 'service-worker.js', // filename for the  output 
       }),
       new WebpackPwaManifest({
@@ -37,7 +37,7 @@ module.exports = () => {
         start_url: '/',
         icons: [
           {
-            src: path.resolve('./src.images/logo.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512], 
             destination: path.join('icons')
           },
@@ -45,7 +45,7 @@ module.exports = () => {
       }),
     ],
     
-
+//test line tells you where to run the rules
     module: {
       rules: [
         {

@@ -1,5 +1,3 @@
-
-
  # Text Editor
 
  
@@ -16,8 +14,10 @@ You use this project by running "concurrently" in the terminal and then opening 
 
 ## Questions
 Contact me with any other questions regarding this project via the email listed below
+
 GitHub: [huntrreed](https://github.com/huntrreed)
+
 Email: huntrreed@gmail.com
 
 ### Deployed Link
-[Deployed Application Page]()
+[Deployed Application Page](https://huntrreed.github.io/text-editor/)
